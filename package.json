@@ -1,0 +1,9 @@
+{
+  "name": "ilay-brain-games",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
