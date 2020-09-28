@@ -4,6 +4,20 @@
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "src/bin/brain-games.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://https://github.com/eilmoon/frontend-project-lvl1.git"
+  },
+  "dependencies": {
+    "promptly": "^3.0.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/register": "^7.10.1"
   }
 }
