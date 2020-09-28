@@ -6,10 +6,6 @@
   "bin": {
     "brain-games": "src/bin/brain-games.js"
   },
-  "repository": {
-  "type": "git",
-  "url": "git+https://https://github.com/eilmoon/frontend-project-lvl1.git"
-  },
   "dependencies": {
     "promptly": "^3.0.3",
     "readline-sync": "^1.4.10"
