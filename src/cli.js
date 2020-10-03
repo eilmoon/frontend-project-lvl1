@@ -1,11 +1,9 @@
 import promptly from 'promptly';
 
-<<<<<<< HEAD
+
 //startGame
 export default async (description, gameData) => {
-=======
-export default async () => {
->>>>>>> 8f4ae0deba936b22e283f2ad7f404611e47009b4
+
   console.log('Welcome to the Brain Games!');
   const userName = await promptly.prompt('May I have your name?: ');
   console.log(`Hello, ${userName}!`);
