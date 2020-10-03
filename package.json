@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "brain-games": "src/bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even"
   },
   "dependencies": {
     "promptly": "^3.0.3",
