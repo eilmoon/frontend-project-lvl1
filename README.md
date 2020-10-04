@@ -5,3 +5,5 @@
 [![Linter](https://github.com/eilmoon/frontend-project-lvl1/workflows/Linter_starter/badge.svg)](https://github.com/eilmoon/frontend-project-lvl1/actions)
 
 [![asciicast](https://asciinema.org/a/b9pwYHM7Dy5ox3UYx2Mun5ZOH.svg)](https://asciinema.org/a/b9pwYHM7Dy5ox3UYx2Mun5ZOH)
+
+[![asciicast](https://asciinema.org/a/363435.svg)](https://asciinema.org/a/363435)

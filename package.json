@@ -5,7 +5,8 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even"
+    "brain-even": "bin/brain-even",
+    "brain-calc": "bin/brain-calc"
   },
   "dependencies": {
     "promptly": "^3.0.3",

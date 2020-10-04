@@ -1,4 +1,4 @@
-import startGame from '../cli.js';
+import startGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
