@@ -7,7 +7,8 @@
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even",
     "brain-calc": "bin/brain-calc",
-    "brain-gcd": "bind/brain-gcd.js"
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js"
   },
   "dependencies": {
     "promptly": "^3.0.3",
