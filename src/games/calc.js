@@ -12,13 +12,12 @@ const gameData = () => {
   if ((randomNum >= -99) && (randomNum <= -33)) {
     answer = operandOne - operandTwo;
     return [`${operandOne} - ${operandTwo}`, String(answer)];
-  } else if ((randomNum > -33) && (randomNum <= 33)) {
+  } if ((randomNum > -33) && (randomNum <= 33)) {
     answer = operandOne + operandTwo;
     return [`${operandOne} + ${operandTwo}`, String(answer)];
-  } else {
-    answer = operandOne * operandTwo;
-    return [`${operandOne} * ${operandTwo}`, String(answer)];
   }
+  answer = operandOne * operandTwo;
+  return [`${operandOne} * ${operandTwo}`, String(answer)];
 };
 
 const startCalc = () => startGame(description, gameData);
