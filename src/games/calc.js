@@ -3,7 +3,6 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const description = 'What is the result of the expression?';
 
-let operation;
 let answer;
 const gameData = () => {
   const operandOne = getRandomNumber(0, 100);
