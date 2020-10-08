@@ -26,5 +26,4 @@ export default async (description, gameData) => {
 // 2. Добавить слово await перед каждым вызовом метода prompt
 // В остальном код совершенно обычный "
 
-/* p.s. Пошёл изучать https://ru.hexlet.io/courses/js-asynchronous-programming , разберусь с промисами - вернусь
-*/
+// p.s. Пошёл изучать https://ru.hexlet.io/courses/js-asynchronous-programming , разберусь с промисами - вернусь
