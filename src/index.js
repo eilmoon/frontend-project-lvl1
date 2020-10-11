@@ -19,14 +19,3 @@ export default (description, gameData) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-<<<<<<< HEAD
-=======
-
-// " Библиотека promptly работает в асинхронном режиме который мы еще не изучали
-// Для ее работы нужно выполнить две вещи:
-// 1. Добавить слово async перед определением функции
-// 2. Добавить слово await перед каждым вызовом метода prompt
-// В остальном код совершенно обычный "
-
-// p.s. Пошёл изучать https://ru.hexlet.io/courses/js-asynchronous-programming , разберусь с промисами - вернусь
->>>>>>> 41644bdee8c5975da1c4ef9bdc66dc1df129d63f
