@@ -8,8 +8,8 @@ const getProgression = () => {
   const progression = [];
   const firstItem = randomizer(0, 100);
   const difference = randomizer(2, 10);
-  for (let i = 0; i < progressionLength; i += 1) { 
-    progression[i] = firstItem + difference * i; // 'i' this is iteration and multiplier 
+  for (let i = 0; i < progressionLength; i += 1) {
+    progression[i] = firstItem + difference * i; // 'i' this is iteration and multiplier
   }
   const indexOfDeletedItem = randomizer(0, progressionLength - 1);
   const answer = progression[indexOfDeletedItem];
