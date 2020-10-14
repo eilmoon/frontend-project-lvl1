@@ -8,10 +8,15 @@ To install it and run it in the terminal, you need:
 ...
 
 Commands for starting games:
+
 node BrainGames/bin/brain-even.js
+
 node BrainGames/bin/brain-calc.js
+
 node BrainGames/bin/brain-gcd.js
+
 node BrainGames/bin/brain-progression.js
+
 node BrainGames/bin/brain-prime.js
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/eilmoon/frontend-project-lvl1)
