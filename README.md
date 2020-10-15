@@ -20,9 +20,25 @@ node BrainGames/bin/brain-gcd.js
 
 node BrainGames/bin/brain-progression.js 
 
+<<<<<<< HEAD
 node BrainGames/bin/brain-prime.js 
 
 ##
+=======
+
+Commands for starting games:
+
+node BrainGames/bin/brain-even.js 
+
+node BrainGames/bin/brain-calc.js 
+
+node BrainGames/bin/brain-gcd.js 
+
+node BrainGames/bin/brain-progression.js 
+
+node BrainGames/bin/brain-prime.js 
+
+>>>>>>> 865462f4bce71b0f4eb1eaa087f600b9502a2a4e
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/eilmoon/frontend-project-lvl1)
 
