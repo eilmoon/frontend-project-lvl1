@@ -7,7 +7,7 @@ const isEven = (num) => num % 2 === 0;
 
 const getAnswer = (num) => (isEven(num) ? 'yes' : 'no');
 
-const getGameData = () => { // возврат генерации правильного числа и ответа
+const getGameData = () => {
   const randomNumber = randomizer(-100, 100);
   const answer = getAnswer(randomNumber);
   const question = String(randomNumber);

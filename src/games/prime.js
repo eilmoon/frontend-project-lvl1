@@ -5,7 +5,7 @@ const description = 'Answer "yes" if given number is prime. Otherwise answer "no
 
 const isPrime = (num) => {
   if (num < 2) return false;
-  for (let i = 2; i < num; i += 1) {
+  for (let i = 2; i <= num / 2; i += 1) {
     if (num % i === 0) return false;
   }
   return true;
@@ -13,9 +13,8 @@ const isPrime = (num) => {
 
 const getGameData = () => {
   const getAnswer = (num) => (isPrime(num) ? 'yes' : 'no');
-  const randomNumber = randomizer(1, 1000);
-  const question = randomNumber;
-  const answer = getAnswer(randomNumber);
+  const question = randomizer(1, 1000);
+  const answer = getAnswer(question);
   return [String(question), answer];
 };
 

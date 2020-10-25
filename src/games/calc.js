@@ -12,7 +12,7 @@ const calculate = (operandOne, operator, operandTwo) => {
     case '*':
       return (operandOne * operandTwo);
     default:
-      throw new Error('error');
+      throw new Error(`Error! Current operator is ${operator}. Avalible operators are "+", "-", "*".`);
   }
 };
 
